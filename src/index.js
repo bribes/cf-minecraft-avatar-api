@@ -31,7 +31,7 @@ app.get('/', (c) => {
 		<code>{"error":true}</code>
 		<br>
 		<br>
-		<a href="https://github.com/bribes/cf-minecraft-avatar-api">Github Repository</a>
+		<a href="https://github.com/bribes/cf-minecraft-avatar-api">GitHub Repository</a>
 		<br>
 		Powered by <a href="https://workers.cloudflare.com/">Cloudflare Workers</a>, <a href="https://hono.dev/">Hono</a>, and <a href="https://github.com/fineshopdesign/cf-wasm">Photon</a> (CF WASM).
 		`)
