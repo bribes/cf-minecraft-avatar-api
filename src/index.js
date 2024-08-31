@@ -13,7 +13,7 @@ app.get('/', (c) => {
 		<br>
 		Endpoints:
 		<br>
-		/cape/:textureId/:width(?back)
+		/cape/:textureId/:width?(?back)
 		<br>
 		Default Width: 80
 		<br>
