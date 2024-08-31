@@ -1,6 +1,6 @@
 {
-  "name": "cool-wood-753f",
-  "version": "0.0.0",
+  "name": "cf-minecraft-avatar-api",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
