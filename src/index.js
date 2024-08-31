@@ -120,7 +120,7 @@ app.get('/face/:textureId/:size?', async (c) => {
 				SamplingFilter.Nearest
 			)
 
-			var outputImage1 = padding_uniform(outputImage1, (size/9)/2, new Rgba(0, 0, 0, 1))
+			var outputImage1 = padding_uniform(outputImage1, (size/9)/2, new Rgba(0, 0, 0, 0))
 
 			var croppedImage2 = crop(
 				inputImage,
