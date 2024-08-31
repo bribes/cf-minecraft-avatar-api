@@ -4,7 +4,8 @@ import { PhotonImage, SamplingFilter, crop, resize, blend, padding_uniform, Rgba
 const app = new Hono();
 
 app.get('/', (c) => {
-	return c.html(`Made by <a href="https://github.com/bribes" target="_blank">Faav</a>
+	return c.html(`<h1>Cloudflare Minecraft Avatar API</h1>
+		Made by <a href="https://github.com/bribes" target="_blank">Faav</a>
 		<br>
 		<br>
 		The :textureId is from textures.minecraft.net.
@@ -32,7 +33,7 @@ app.get('/', (c) => {
 		<br>
 		<a href="https://github.com/bribes/cf-minecraft-avatar-api">Github Repository</a>
 		<br>
-		Powered by Cloudflare Workers, Hono, and Photon.
+		Powered by <a href="https://workers.cloudflare.com/">Cloudflare Workers</a>, <a href="https://hono.dev/">Hono</a>, and <a href="https://github.com/fineshopdesign/cf-wasm">Photon</a> (CF WASM).
 		`)
 })
 
