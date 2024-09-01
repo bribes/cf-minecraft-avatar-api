@@ -1,4 +1,4 @@
-import { Hono } from 'hono'
+import { Hono } from 'hono';
 import { PhotonImage, SamplingFilter, crop, resize, blend, padding_uniform, Rgba } from "@cf-wasm/photon";
 
 const app = new Hono();
