@@ -115,12 +115,12 @@ app.get('/face/:textureId/:size?', async (c) => {
 		if (!noLayers) {
 			var outputImage1 = resize(
 				croppedImage1,
-				size-(size/9),
-				size-(size/9),
+				size-(size/8),
+				size-(size/8),
 				SamplingFilter.Nearest
 			)
 
-			var outputImage1 = padding_uniform(outputImage1, (size/9)/2, new Rgba(0, 0, 0, 0))
+			var outputImage1 = padding_uniform(outputImage1, (size/8)/2, new Rgba(0, 0, 0, 0))
 
 			var croppedImage2 = crop(
 				inputImage,
