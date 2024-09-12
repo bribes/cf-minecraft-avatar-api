@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@cf-wasm/photon": "^0.1.24",
-    "hono": "^4.5.11"
+    "hono": "^4.6.1"
   }
 }
