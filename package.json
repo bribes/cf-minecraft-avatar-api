@@ -8,10 +8,10 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^3.78.3"
+    "wrangler": "^3.78.8"
   },
   "dependencies": {
     "@cf-wasm/photon": "^0.1.24",
-    "hono": "^4.6.2"
+    "hono": "^4.6.3"
   }
 }
